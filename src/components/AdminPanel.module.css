@@ -1,0 +1,65 @@
+.admin-panel {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .admin-panel h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel .add-form {
+    margin-top: 20px;
+  }
+  
+  .admin-panel .add-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .admin-panel .add-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .admin-panel .profile-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .admin-panel .profile-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .admin-panel .profile-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .admin-panel .profile-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .admin-panel .profile-item p {
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel .profile-item button {
+    margin-right: 5px;
+  }
+  

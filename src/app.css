@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #f5f5f5;
+  --accent-color: #ccc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Admin Panel */
+.admin-panel {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+.admin-panel h2 {
+  margin-bottom: 20px;
+}
+
+.admin-panel .profile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.admin-panel .profile-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-panel .profile-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.admin-panel .profile-item h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.admin-panel .profile-item p {
+  margin-bottom: 10px;
+}
+
+.admin-panel .profile-item button {
+  margin-right: 5px;
+}
+
+.admin-panel .add-form {
+  margin-top: 20px;
+}
+
+.admin-panel .add-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid var(--accent-color);
+  border-radius: 3px;
+}
+
+.admin-panel .add-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid var(--accent-color);
+  border-radius: 3px;
+  width: 300px;
+}
+
+/* Profile Details */
+.profile-details {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-details img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  margin-bottom: 20px;
+}
+
+/* Map */
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}

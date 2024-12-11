@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Software Engineer",
+    "address": "123 Main St, Anytown USA"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "photo": "https://via.placeholder.com/150",
+    "description": "UI Designer",
+    "address": "456 Oak Rd, Someville USA"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Data Scientist",
+    "address": "789 Elm Ave, Anothercity USA"
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Marketing Manager",
+    "address": "101 Pine Ln, Smalltown USA"
+  },
+  {
+    "id": 5,
+    "name": "David Lee",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Graphic Designer",
+    "address": "555 Maple Dr, Bigcity USA"
+  },
+  {
+    "id": 6,
+    "name": "Sarah Johnson",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Project Manager",
+    "address": "999 Cedar St, Townsville USA"
+  },
+  {
+    "id": 7,
+    "name": "Robert Williams",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Accountant",
+    "address": "333 Birch Rd, Villageton USA"
+  },
+  {
+    "id": 8,
+    "name": "Amanda Martinez",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Human Resources Specialist",
+    "address": "777 Willow Ave, Metropolis USA"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Brown",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Frontend Developer",
+    "address": "888 Pineapple Dr, Beachtown USA"
+  },
+  {
+    "id": 10,
+    "name": "Jessica Taylor",
+    "photo": "https://via.placeholder.com/150",
+    "description": "Content Writer",
+    "address": "444 Peach Blvd, Orchard City USA"
+  }
+]
