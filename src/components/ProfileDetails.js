@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import MapComponent from './MapComponent';
 
-
 const ProfileDetails = ({ profiles }) => {
   const { id } = useParams();
   const [profile, setProfile] = useState(null);
